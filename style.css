@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 1440px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 226px;
+    background-color: #66D1FF;
+    margin-bottom: 0px;
+}
+
+.knopka {
+    font-family: "Montserrat";
+    width: 276px;
+    height: 45px;
+    border-radius: 4px;
+    color: black;
+    background-color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 296px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.phone {
+    font-family: "Montserrat";
+    width: 256px;
+    height: 34px;
+    font-size: 28px;
+    color: black;
+    display: flex;
+    justify-content: end;
+}
+
+.title {
+    width: 1440px;
+    height: 766px;
+    background-color: rgba(0, 0, 0, 0.171);
+    background-image: url("pics/fon.jpg");
+    background-size: cover;
+    opacity: 1.25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.t_1 {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+}
+
+.main_fon {
+    
+}
+
