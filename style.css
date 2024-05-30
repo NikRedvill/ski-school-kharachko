@@ -36,7 +36,6 @@ nav {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-
 }
 
 .logo {
@@ -92,10 +91,15 @@ nav {
 }
 
 .discription {
+    width: 1440px;
+    height: 998px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 140px;
+    background-color: rgba(102, 209, 255, 0.1);
+    padding-bottom: 170px;
+    box-sizing: border-box;
 }
 
 .dis_title {
@@ -109,6 +113,8 @@ nav {
 .bonus {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
 }
 
 .dis_block {
@@ -131,3 +137,54 @@ nav {
     font-family: "Montserrat";
     font-size: 26px;
 }
+
+.go {
+    width: 1440px;
+    height: 1003px;
+    background: linear-gradient(208.35deg, rgba(239, 250, 255, 1), 43.85%, white 43.86%);
+    mix-blend-mode: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 170px;
+    box-sizing: border-box;
+}
+
+.go_title {
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.go_but {
+    width: 505px;
+    height: 86px;
+    border: solid 3px black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 130px;
+}
+
+.go_but_text {
+    text-decoration: none;
+    color: black;
+}
+
+.go_pics {
+    width: 1278px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img {
+    width: 297px;
+    height: 297px;
+}
+
