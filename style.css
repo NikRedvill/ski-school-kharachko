@@ -1,0 +1,29 @@
+html {
+    display: flex;
+    justify-content: center;
+
+}
+
+header {
+    width: 1440px;
+    height: 112px;
+    padding: 0 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#66D1FF ;
+}
+
+.header_but {
+    width: 276px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.header_phone {
+    font-size: 28px;
+}
